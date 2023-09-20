@@ -17,7 +17,8 @@ Some of these can be found in this repository, but the links below will help wit
 -- Big Data Analysis --
 
 
-1. https://github.com/ZeemPython/CIS4560/tree/main
+1. 8GB Steam Review Data Analysis ETL with Linux RedHat/Hadoop/Beeline/Tableau
+https://github.com/ZeemPython/CIS4560/tree/main
 
 -- YouTube Tutorials and Lectures -- 
 
