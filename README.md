@@ -6,11 +6,11 @@ Some of these can be found in this repository, but the links below will help wit
 
 1. NetSquad LA - https://github.com/ZeemPython/NetSquadLAFinal
 
--- Application Programming Samples --
+-- Programming Samples --
 
-1. Java: 
+1. Java Assignments: https://github.com/ZeemPython/ProgrammingSamples/tree/main/Assignments
 
-2. Python: 
+2. Python Assignments: 
 
 -- Big Data Analysis --
 
