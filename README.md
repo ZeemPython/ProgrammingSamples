@@ -1,21 +1,31 @@
 # ProgrammingSamples
-These are some of my major programming-related projects
+These are some of my major programming-related projects. 
+Some of these can be found in this repository, but the links below will help with navigation.
+
+-- Website Development --
+
+1. NetSquad LA - https://github.com/ZeemPython/NetSquadLAFinal
+
+-- Application Programming Samples --
+
+1. Java: 
+
+2. Python: 
+
+-- Big Data Analysis --
 
 
-Website Development:
-NetSquad LA - https://github.com/ZeemPython/NetSquadLAFinal
+1. https://github.com/ZeemPython/CIS4560/tree/main
 
-Application Programming Samples:
-Java - 
-Python - 
+-- YouTube Tutorials and Lectures -- 
 
-Big Data Analysis:
-https://github.com/ZeemPython/CIS4560/tree/main
+1. Java OOP Concepts: https://youtu.be/frEl2sR0g-U
 
-YouTube Tutorials and Lectures:
-Java OOP Concepts: https://youtu.be/frEl2sR0g-U
-Java Tutorial Example: https://www.youtube.com/watch?v=L6e-cViNx7o
+2. Java Tutorial Example: https://www.youtube.com/watch?v=L6e-cViNx7o
 
-Reviewing Python Final: https://youtu.be/Cfs_nbQ4SfI
-Big Data Tutorials: https://youtu.be/_2LlcZ67K4M
+3. Reviewing Python Final: https://youtu.be/Cfs_nbQ4SfI
+
+4. Big Data Tutorials: https://youtu.be/_2LlcZ67K4M
+
+5. SDLC Presentation: https://github.com/ZeemPython/ProgrammingSamples/blob/main/System%20Development%20Life%20Cycle%20(SDLC).pptx
 
