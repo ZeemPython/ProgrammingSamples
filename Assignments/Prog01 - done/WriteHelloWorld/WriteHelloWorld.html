@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Writing Hello.java</title>
+
+    <meta name="description" content="presentation">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+
+    <link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+                 <!--jpc start -->
+	         <style type="text/css">
+	           p { text-align: left;
+		     }
+	           quote { text-align: left;
+		         }
+
+	           em { color: red;
+	              }
+
+	         </style>
+	         <!--jpc end -->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+
+        <!-- start -->
+
+        <section id="start">
+          <h2>
+            Write Helo.java step by step <br>
+          </h2>
+
+        </section>
+
+        <section>
+          <p>here I'm going to follow all the steps necessary to write
+            a java program, compile it, run it and test it (on windows)
+        </section>
+
+        <section>
+          <p>write the program using sublime
+            <img src="1.png">
+        </section>
+
+        <section>
+          <p>write the program using sublime
+            <img src="2.png">
+        </section>
+
+        <section>
+          <p>create a folder inside of your Desktop.  In my case my
+            desktop is C:\Users\carballo\Desktop because my username in
+            this machine is "carballo".  You obviously have a different
+            username in your machine.
+            <img src="8.png">
+        </section>
+
+        <section>
+          <p>I'm calling the new folder Prog01
+
+            <img src="9.png">
+        </section>
+
+        <section>
+          <p>go to the cmd window and type:<br>
+            cd \Users\carballo\Deskto\Prog01<br>
+            again, remember your username is different.
+            <img src="10.png">
+        </section>
+
+        <section>
+          <p>go to sublime and "save as" <br>
+            c:\Users\carballo\Desktop\Prog01
+            <img src="12.png" height="540">
+        </section>
+
+        <section>
+          <p>now go back to the cmd window and type dir.  You should
+            see your program.
+
+            <img src="14.png" height="540">
+        </section>
+
+        <section>
+          <p>compile your program typing<br>
+            javac Hello.java<br>
+
+            <img src="15.png" height="540">
+        </section>
+
+        <section>
+          <p>run your program.<br>
+            java Hello<br>
+
+            <img src="16.png" height="600">
+        </section>
+
+        <section>
+          <p>if you didn't make any mistake you should see: <br>
+            <b>hello world</b>
+        </section>
+
+        <section>
+          <p>now we need to download the test from Canvas
+
+            <img src="17.png">
+        </section>
+
+        <section>
+          <p>click here
+
+            <img src="18.png">
+        </section>
+
+        <section>
+          <p>extract all the files of the test into the downloads folder:
+
+            <img src="19.png" height="540">
+        </section>
+
+        <section>
+          <p>copy all these files (using ctrl-C)
+
+            <img src="20.png" height="540">
+        </section>
+
+        <section>
+          <p>now paste all the files into the Prog01 folder (using ctrl-C)
+
+            <img src="21.png">
+        </section>
+
+        <section>
+          <p>if you now type dir in the cmd window you should see all
+            the files you copied
+
+            <img src="22.png" height="540">
+        </section>
+
+        <section>
+          <p> you can change the indentation style of sublime to spaces
+            <br>            <img src="23.png" height="540">
+        </section>
+
+        <section>
+          <p> you can change the indentation style of sublime to spaces
+            <br>
+            <img src="24.png" height="540">
+        </section>
+
+
+        <section>
+          <p>just make sure you don't mix spaces and tabs.  Use one or
+          the other.  Better to use spaces.
+        </section>
+
+        <section>
+          <p> compile your program and run the test.
+
+            <img src="25.png">
+        </section>
+
+        <section>
+          <p>if there are no mistakes you should get a score of 100
+        </section>
+
+        <section>
+          END
+          <br><a href="#start">go to start</a>
+        </section>
+        
+        
+        
+        <!-- end -->
+        
+      </div>
+      
+    </div>
+    
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    
+    <script>
+      
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+          slideNumber: true,
+          controls: true,
+          progress: true,
+          history: true,
+          center: true,
+          
+          transition: 'slide', // none/fade/slide/convex/concave/zoom
+          
+          // More info https://github.com/hakimel/reveal.js#dependencies
+          dependencies: [
+	      { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+	      { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+	      { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+	      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+	      { src: 'plugin/search/search.js', async: true },
+	      { src: 'plugin/zoom-js/zoom.js', async: true },
+	      { src: 'plugin/notes/notes.js', async: true }
+          ]
+      });
+      
+    </script>
+    
+  </body>
+</html>
