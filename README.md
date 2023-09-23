@@ -1,4 +1,4 @@
-# ProgrammingSamples
+# School Projects
 These are some of my major programming-related projects. 
 Some of these can be found in this repository, but the links below will help with navigation.
 
